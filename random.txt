@@ -1,0 +1,102 @@
+
+// fetch(fetchAPIurl)
+// .then(r=>r.json())
+// .then(data => data.forEach(dataItem => renderData(dataItem)))
+
+
+// function renderData(dataItem){
+    
+//     questionHeader.textContent = dataItem.question
+//     const answerArray = dataItem.incorrectAnswers.concat(dataItem.correctAnswer)
+//     console.log(answerArray)
+//     const shuffleArray = answerArray.sort((a, b)=> Math.floor(Math.random() * 4))
+
+//     // for(let i= 0; i<answerArray.length; i++) {
+//     //     let chosen = Math.floor(Math.random() * (i + 1))
+//     //     let temp = i
+//     //     // console.log(answerArray[temp])
+//     //     i = chosen
+//     //     // console.log(answerArray[i])
+//     //     chosen = temp
+//     //     // console.log(answerArray[chosen])
+
+//     // }
+//     console.log(shuffleArray)
+    
+// }
+
+
+
+
+
+//     for(let i=0; i<data.length; i++){
+        
+        
+// //         const question = data[i].question
+// //         question.textContent = `${question}`
+        
+// //         const correct = data[i].correctAnswer
+// //         correct.classList.add('correct-class', 'btn')
+// //         correct.id = 'correct'
+// //         correct.textContent = correct
+// //         // containerDiv.append(right)
+
+// //         const incorrectArray = data[i].incorrectAnswers
+
+// //         for(let j=0; j<incorrectArray.length; j++){
+// //             const wrong = document.createElement('button')
+// //             wrong.classList.add('wrong-class', 'btn')
+// //             wrong.id = 'wrong'
+// //             wrong.textContent = incorrectArray[j]
+// //         }
+      
+// //         const totalArray = data[i].incorrectAnswers.concat(correct)
+
+
+// //         const btnCorrect = document.querySelectorAll('.correct-class')
+// //         const btnWrong = document.querySelectorAll('.wrong-class')
+// //         btnWrong.forEach(btn => {
+// //             btn.addEventListener('click', (e)=> {
+
+// //             })
+// //         })
+// //     }
+// // }        
+
+// startBtn.addEventListener('click', startQuiz)
+
+// function startQuiz() {
+//     console.log('started')
+//     startBtn.classList.add('hide')
+//     questionContainer.classList.remove('hide')
+//     setNextQuestion(quiz)
+// }
+
+// function setNextQuestion(){}
+
+
+// nextBtn.addEventListener('click', (e)=>{
+//     console.log(e)
+// })
+
+// resetBtn.addEventListener('click', ()=> {
+//     i = 0
+//     console.log(i)
+// })
+
+
+
+
+
+
+
+// async function getInfo(){
+//     const response = await fetch(fetchAPIurl)
+//     const data = await response.json()
+
+//     const correct = data.filter(correctAnswers =>{
+//         return data.correctAnswers
+//     })
+//     console.log(correct)
+// }
+// getInfo()
